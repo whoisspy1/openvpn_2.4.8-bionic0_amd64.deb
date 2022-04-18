@@ -3,7 +3,7 @@
 nano /etc/apt/sources.list
 uncomment some sources with src mask
 apt-get update && apt-get build-dep openvpn -y
-wget --no-check-cert https://github.com/whoisspy1/openvpn_2.4.8-bionic0_amd64.deb/blob/main/openvpn_2.4.8-bionic0_amd64.deb
+wget --no-check-cert https://github.com/whoisspy1/openvpn_2.4.8-bionic0_amd64.deb
 dpkg -i openvpn_2.4.8-bionic0_amd64.deb
 wget https://git.io/v1jlQ -O openvpn-install.sh && bash openvpn-install.sh
 nano /etc/openvpn/server.conf
