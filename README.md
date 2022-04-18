@@ -1,4 +1,4 @@
-# openvpn_2.4.8-bionic0_amd64.deb
+# XOR PATCH OBFUSCATEopenvpn_2.4.8-bionic0_amd64.deb
 open vpn XOR patch obfuscate 
 nano /etc/apt/sources.list
 uncomment some sources with src mask
